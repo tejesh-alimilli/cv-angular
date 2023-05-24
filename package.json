@@ -1,6 +1,10 @@
 {
   "name": "cv-angular",
-  "version": "0.0.0",
+  "author": {
+    "name": "A.V.Tejesh",
+    "url": "https://github.com/tejesh-alimilli"
+  },
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
