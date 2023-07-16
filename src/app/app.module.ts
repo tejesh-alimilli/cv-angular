@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppNavComponent } from "./app-nav/app-nav.component";
+import { IntroSectionComponent } from "./intro-section/intro-section.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppNavComponent } from "./app-nav/app-nav.component";
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    AppNavComponent
+    AppNavComponent,
+    IntroSectionComponent,
   ]
 })
 export class AppModule { }
