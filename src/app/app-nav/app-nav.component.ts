@@ -13,7 +13,8 @@ import { RouterLink } from '@angular/router';
 export class AppNavComponent {
   isMenuCollapsed = true
   menuItems = [
-    'Home',
+    'Summary',
+    'Skills',
     'Experience',
     'Projects'
   ]
