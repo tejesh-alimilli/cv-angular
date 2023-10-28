@@ -1,0 +1,12 @@
+<div class="card mt-3">
+    <div class="card-header">Skills</div>
+    <div class="card-body row">
+        <div class="col-sm-12 col-md-6 col-lg-6" *ngFor="let skill of skills">
+            <strong>{{skill.name}}</strong>:
+            <span *ngFor="let item of skill.list; let isFirst = first">
+                <ng-container *ngIf="isFirst">{{item}}</ng-container>
+                <ng-container *ngIf="!isFirst">, {{item}}</ng-container>
+            </span>
+        </div>
+    </div>
+</div>

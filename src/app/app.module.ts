@@ -6,19 +6,21 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppNavComponent } from "./app-nav/app-nav.component";
 import { IntroSectionComponent } from "./intro-section/intro-section.component";
+import { SkillsSectionComponent } from "./skills-section/skills-section.component";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  providers: [],
-  bootstrap: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    AppNavComponent,
-    IntroSectionComponent,
-  ]
+    declarations: [
+        AppComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgbModule,
+        AppNavComponent,
+        IntroSectionComponent,
+        SkillsSectionComponent
+    ]
 })
 export class AppModule { }
